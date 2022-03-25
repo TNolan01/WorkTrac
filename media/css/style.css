@@ -1,12 +1,12 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* Containers */
 
 .container-wrapper {}
 
-.container-wrapper--red {
+.container-wrapper--blue {
     background-color: #0b38cc;
     color: white;
 }
@@ -171,20 +171,19 @@ body {
     margin-top: 0;
 }
 
+/* Banner */
 
-
-/* Footer */
-
-.bottom-nav {
+.jumbotron .banner {
+    margin-top: 5px;
+    color: white;
+    background-color: #0b38cc;
     text-align: center;
-    /* margin-bottom: 40px; */
-    margin-top: 20px;
 }
 
+
 .bottom-nav i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
+    margin-bottom: 5px;
+    font-size: 40px;
 }
 
 .bottom-nav .btn {
