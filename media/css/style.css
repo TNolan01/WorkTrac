@@ -11,23 +11,23 @@ body {
     color: white;
 }
 
-.alert-container {}
+/* .alert-container {} */
 
-.callout-container {
-    height: 100vh;
+.callout-container{}
 
-    background: url('../images/whiskey-background.jpg') no-repeat bottom right fixed;
+body    {
+    /* height: 100vh; */ 
+    background: url('/media/images/background.png') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
-
+    overflow: hidden;
     position: relative;
-}
+} 
 
 .opaque-overlay {
     position: absolute;
@@ -59,6 +59,7 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, .25);
     border: 0;
+    
 }
 
 .navbar .navbar-toggler {
@@ -181,7 +182,7 @@ body {
 }
 
 
-.bottom-nav i {
+/* .bottom-nav i {
     margin-bottom: 5px;
     font-size: 40px;
 }
@@ -194,4 +195,37 @@ body {
     font-weight: bold;
     margin-top: 10px;
     color: #0b38cc
+} */
+
+.footer {
+    position: fixed;
+    margin-top: 20px;
+    padding: 0.5rem 0;
+    color: #FFF;
+    text-align: center;
+    background-color: #0b38cc;
+    border-top: .05rem solid #e5e5e5;
+}
+
+.footer p:last-child {
+    margin-bottom: 0;
+
+}
+                 
+.social {
+  margin-bottom:20px;
+}	
+ 
+
+.footer p:last-child {
+    margin-bottom: 0;
+}
+            
+footer a {
+    color: #fff;
+    font-size: 30px;
+}
+
+.social {
+  margin-bottom:20px;
 }
